@@ -140,10 +140,6 @@ input {
     max-width: 60%;
   }
 
-  .item:active {
-    opacity: 0.9;
-  }
-
 }
 
 @media (hover: hover) {
@@ -176,6 +172,10 @@ input {
   .main__wrapper:hover
   .item__text {
     color: #3f4238;
+  }
+
+  .item:active {
+    opacity: 0.9;
   }
 
   .item:active
