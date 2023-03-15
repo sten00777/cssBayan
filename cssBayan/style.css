@@ -186,5 +186,9 @@ input {
   .item__text {
     color: #3f4238;
   }
+  .item:active
+  .item__text {
+    color: #fee49c;
+  }
 
 }
